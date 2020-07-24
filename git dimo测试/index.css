@@ -1,0 +1,351 @@
+/* 设置头部下关于我们的样式 */
+#header{
+    height:100px;
+    /* background-color: chartreuse; */
+    width:100%;
+}
+#header .about{
+    height:25px;
+    background-color: #444;
+}
+#header .about a{color:#ccc;}
+/* 关于我们部分版心 */
+#header>.about>.warp{
+    height:25px;
+    line-height: 25px;
+    /* background-color: burlywood; */
+}
+/* 设置导航logo部分 */
+#header>.nav .logo{
+    width:159px;
+    height: 75px;
+    margin-right:40px;
+   
+}
+/* 设置导航navlist部分*/
+#header>.nav>.warp>.navlist{
+    width:770px;
+    height:75px;
+    line-height: 75px;
+    /* background-color: crimson; */
+   padding-left: 30px;
+   
+   
+}
+/* 设置navlist字体部分 */
+#header .navlist>a{
+    font-size: 16px;
+    margin-right: 30px;
+}
+/* 设置导航下搜索框部分 */
+#header .searchbar{
+    width:200px;
+    height:75px;
+    line-height: 75px; 
+}
+/* 搜索框中的search部分 */
+#header .searchbar>.search{
+    width:160px;
+    height:16px;
+    border: 1px solid #ccc;
+    margin-top:26px;  
+}
+/* 搜索框中的btn部分 */
+#header .searchbar>.btn{
+    width:20px;
+    height:20px;
+    border: 1px solid #ccc;
+    margin-top:26px;
+    background-image: url(./images/search.png);
+    background-position: -4px -4px;  
+}
+/* banner版块 */
+#banner{
+    width:100%;
+    height: 200px;
+    background-image: url(./images/banner.png);
+    position: relative;
+}
+/* banner版心 */
+#banner .warp{
+    height: 70px;
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom:0;
+    left:0;
+    /* background: cadetblue;   */
+}
+/* banner中源宝博客文本 */
+#banner .warp .text{
+    font-size: 26px;
+    font-family: "黑体";
+    font-weight: bold;
+    color: #fff;
+}
+/* banner中关注的设置 */
+#banner .warp a{
+    color: #00a7ea;
+    position: absolute;
+    left:111px;
+    top:3px;
+}
+#banner .warp .box{
+    position: relative;
+}
+/* banner中info的设置 */
+#banner .warp .info{
+    color:#fff;
+}
+/* 主体main部分 */
+#main{
+    background-color: #f2f2f2;
+    padding-top: 15px;
+}
+/* 左边部分 */
+#main .warp .lsection{
+    width:850px;
+    min-height: 400px;
+    /* background-color: lightsalmon; */
+    margin-bottom: 20px;
+}
+/* 左边小列表部分 */
+#main .warp .lsection .li1{
+    width:850px;
+    height: 198px;
+    padding:15px 10px;
+    margin-bottom:20px;
+}
+#main .warp .lsection li{
+    background-color: white;
+}
+/* 左边图片 */
+#main .warp .lsection .img>img{
+    width: 205px;
+    height: 165px;
+    margin-right: 20px;
+}
+/* 右边文字 */
+#main .warp .lsection .li1 .text{
+    width: 610px;
+    height: 165px;
+    
+}
+#main .warp .lsection .li1 .text .bigTitle{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "黑体";
+    color: #000;
+    margin-bottom: 30px;
+}
+#main .warp .lsection .li1 .text .icons{
+    margin-bottom: 30px;
+  
+}
+#main .warp .lsection .li1 .text .icon1{
+    width: 20px;
+    height:20px;
+    display: inline-block;
+    background-image: url(./images/icon.png);
+    margin-left: 10px;
+    background-position:3px 7px ;
+ 
+   }
+    
+#main .warp .lsection .li1 .text .icon2{
+        width: 20px;
+        height:16px;
+        display: inline-block;
+        background-image: url(./images/icon.png);
+        background-position:3px -13px ;}
+        
+#main .warp .lsection .li1 .text .icon3{
+            width: 20px;
+            height:16px;
+            display: inline-block;
+            background-image: url(./images/icon.png);
+            background-position:3px -31px ;
+        }
+#main .warp .lsection .li1 .text .icon4{
+                width: 20px;
+                height:16px;
+                display: inline-block;
+                background-image: url(./images/icon.png);
+                background-position:3px -46px ;}                            
+                    
+ /* 右边部分 */
+ #main .warp .rsection{
+    width:310px;
+    min-height: 800px;
+    /* background-color: violet; */
+ }
+ /* 网页分类标题设置 */
+ #main .warp .rsection .webTitle{
+     font-size: 16px;
+     border-bottom: 1px solid #ccc;
+     padding-bottom: 20px;
+     margin-bottom: 15px;                        
+ }
+ /* 网页分类列表版块 */
+ #main .warp .rsection>.webSelect ul>li{
+     width:153px;
+     height: 32px;
+     background-color: #ccc;
+     text-align: center;
+    line-height: 32px;
+     float: left;
+     margin-bottom: 4px;
+ }
+ #main .warp .rsection ul>li:nth-child(2n+1){
+     margin-right: 4px;
+ }
+ /* 控制面板版块 */
+ #main .warp .rsection .contral{
+     margin-bottom: 30px;
+ }
+ /* 搜索版块 */
+ #main .warp .rsection .search{
+     width:300px;
+     height: 34px;
+     padding: 2px;
+     border:1px solid #ccc;
+     margin-bottom: 30px;
+ }
+ /* 搜索中的input框 */
+ #main .warp .rsection .searchbar .search>.ipt{
+     width: 235px;
+     height:32px;
+     border: none;
+     outline: none;
+     background-color: #ccc;
+ }
+ /* 搜索中的button按钮 */
+ #main .warp .rsection .searchbar .search>.btn{
+     width:55px;
+     height:30px;
+     border: none;
+     background-color: #00a7ea;
+ }
+ /* 搜索中最新留言部分 */
+ /* 设置留言结束后的外边距 */
+ #main .warp .rsection .message{
+     margin-bottom: 30px;
+ }
+
+ #main .warp .rsection .message>.webTitle1{
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+ #main .warp .rsection .message ul>li{
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 15px;
+    padding-top: 15px;
+ }
+ /* 热门文章 */
+ #main .warp .rsection .hotArticle .text1{
+     margin-top:9px;
+ }
+ /* 热门文章精灵图部分 */
+ #main .warp .rsection .hotArticle .icon{
+     width:16px;
+     height: 16px;
+     display:inline-block;
+     /* background-color: aqua; */
+     background-image: url(./images/list.png);
+     background-repeat: no-repeat;
+    
+ }
+ #main .warp .rsection .hotArticle .icon1{
+    background-image: url(./images/list.png);
+    background-position: 3px 4px;
+ }
+ #main .warp .rsection .hotArticle .icon2{
+    background-image:url(./images/icon.png) ;
+    background-position: -1px -14px;
+ }
+ #main .warp .rsection .hotArticle .icon3{
+    background-image:url(./images/icon.png) ;
+    background-position: -1px -46px;
+ }
+
+ #main .hotArticle>ul>li{
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 20px;}
+   
+ /* 页面左边页数部分 */
+
+#main .warp .lsection .page>ul>li{
+    width:50px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    /* background-color: aquamarine; */
+    float: left;
+   margin-right: 5px;
+}
+
+#main .warp .lsection .page{
+    margin-left:230px;
+}
+/* 页面下方其他链接部分 */
+
+#main .link{height:55px;
+/* background-color: cadetblue; */
+padding-top: 10px;}
+
+#main .link>a{
+    margin-right: 10px;
+}
+/* 页脚部分 */
+#footer>.center{
+   text-align: center;
+   margin-top:15px;
+   
+}
+#footer>.center>.distence{
+    padding-bottom: 8px;
+    
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
